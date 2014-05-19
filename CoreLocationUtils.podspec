@@ -1,12 +1,11 @@
-pod 'CoreLocationUtils'
-d::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name         = "CoreLocationUtils"
   s.version      = "0.0.1"
   s.summary      = "iOS CoreLocation extensions, simulator and tools"
   s.description  = <<-DESC
-		An Objective-C library with tools and extensions for iOS CoreLocation.
+			An Objective-C library with tools and extensions for iOS CoreLocation.
 
-		Update: added support for iOS5 SDK and ARC compatibility
+			Update: added support for iOS5 SDK and ARC compatibility
                    DESC
   s.homepage     = "https://github.com/100grams/CoreLocationUtils"
 
